@@ -1,0 +1,37 @@
+新建SPcv 参考 huicv(split_and_merge_image,expand_cocofmt_eval,evaluate_tiny,location_evaluation)
+
+新建mmdet/datasets/pipelines/rtest_time_aug.py 参考 mmdet\datasets\pipelines\rtest_time_aug.py（数据增强）
+修改mmdet/datasets/pipelines/__init__.py 添加 CroppedTilesFlipAug类
+
+新建mmdet/datasets/seaperson.py 参考 mmdet/datasets/cocofmt.py（定义数据集）
+修改mmdet/datasets/__init__.py 添加 SeaPersonDataset类
+
+新建configs/_base_/datasets/seaperson_detection.py 参考 configs2\_base_\datasets\TinyPersonV2\TinyPersonV2_detection_640x640.py（配置数据集）
+
+新建configs/faster_rcnn/faster_rcnn_r50_fpn_1x_seaperson.py 参考 configs2/TinyPerson/base/faster_rcnn_r50_fpn_1x_TinyPerson640.py（配置网络）
+
+修改mmdet/datasets/pipelines/transforms.py 添加 Resize_sp方法
+修改mmdet/datasets/pipelines/__init__.py 添加 Resize_sp类
+修改configs/_base_/datasets/seaperson_detection.py（9） 变为 Resize_sp类型
+
+修改mmdet/datasets/pipelines/loading.py 添加 LoadImageFromFile_sp、LoadAnnotations_sp方法
+修改mmdet/datasets/pipelines/__init__.py 添加 LoadImageFromFile_sp、LoadAnnotations_sp类
+修改configs/_base_/datasets/seaperson_detection.py（7，8，17） 变为 LoadImageFromFile_sp、LoadAnnotations_sp类型
+
+修改mmdet/datasets/pipelines/formatting.py 添加 DefaultFormatBundle_sp方法
+修改mmdet/datasets/pipelines/__init__.py 添加 DefaultFormatBundle_sp类
+修改configs/_base_/datasets/seaperson_detection.py（13） 变为 DefaultFormatBundle_sp类型
+
+修改mmdet/core/bbox/transforms.py（66，72，105，111） 改变 bbox_mapping、bbox_mapping_back
+修改mmdet/core/post_processing/merge_augs.py（73，108） 改变 merge_aug_proposals、merge_aug_bboxes
+修改mmdet/models/dense_heads/dense_test_mixins.py（200，202） 改变 merge_aug_bboxes
+修改mmdet/models/roi_heads/test_mixins.py（153，299）改变 aug_test_bboxes、aug_test_mask
+
+修改mmdet/models/detectors/two_stage.py（203，212） 改变 aug_test，添加 tile_aug_test
+修改mmdet/models/detectors/single_stage.py（125，189） 改变 simple_test、aug_test
+修改mmdet/core/evaluation/eval_hooks.py（57，176） 改变 EvalHook，DistEvalHook类
+
+修改mmdet/models/detectors/base.py：113，170
+修改mmdet/models/necks/fpn.py：90，142，209
+
+
