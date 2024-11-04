@@ -1,13 +1,20 @@
-# PointTinyBenchmark
+# SeaPerson(TinyPerson V2)
+[Offical Site on the way ...](http://vision.ucas.ac.cn/sources) <br/>
+[Baidu Pan](https://pan.baidu.com/s/1xaWLplWRT5dilwOPt8ljqg) password: ppsa<br/>
+[Google Driver on the way...](https://drive.google.com/drive/folders/1K_vFUSxoiEjKXbjQ5LsxbUBRKb_vgXId?usp=sharing)
 
---------------
+> Even most of the instances in our dataset are unidentifiable, and there can be no privacy issues.
+But to deal with privacy issues thoroughly, We must highlight some control terms for the released dataset is released 
+just like other released datasets with human faces:
+```
+1) Spreading image with clear person in TinyPerson V2 on the Socaial Internet is prohibited.
+2) Images of identifiable people cannot be used to make demos and promotions without deidentifical.
+3) The image in TinyPersonV2 can not be used for commercial/business purpose.
 
-PointTinyBenchmark is an open source toolbox for object localization and detection tasks on top of [mmdetection](https://github.com/open-mmlab/mmdetection). 
+# Link
+Paper:
+Github:
 
-To date, It implements the following benchmark and algorithms:
+#Install
 
-* [Scale Match for TinyPerson Detection (WACV2020)](https://arxiv.org/abs/1912.10664) [Detail](TOV_mmdetection/docs/tov/)
-* [Object Localization under Single Coarse Point Supervision (CVPR2022)](https://arxiv.org/abs/2203.09338) [Detail](TOV_mmdetection/docs/cpr)
-* [Point-to-Box Network for Accurate Object Detection via Single Point Supervision (ECCV2022)](https://arxiv.org/abs/2207.06827) [Detail](https://github.com/ucas-vg/PointTinyBenchmark/tree/P2BNet)
-* [Spatial Self-Distillation for Object Detection with Inaccurate Bounding Boxes (ICCV2023)]() [Detail](https://github.com/ucas-vg/PointTinyBenchmark/tree/SSD-Det)
-* [CPR++: Object Localization via Single Coarse Point Supervision (TPAMI2024)](https://arxiv.org/abs/2401.17203) [come soon]()
+
