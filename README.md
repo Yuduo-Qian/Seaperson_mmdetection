@@ -16,6 +16,7 @@ just like other released datasets with human faces:
 Paper: https://arxiv.org/abs/2203.09338 <br/>
 Github: https://github.com/ucas-vg/PointTinyBenchmark <br/>
 
-# Install
+# Requirement
+
 
 
