@@ -11,10 +11,10 @@ just like other released datasets with human faces:
 2) Images of identifiable people cannot be used to make demos and promotions without deidentifical.
 3) The image in TinyPersonV2 can not be used for commercial/business purpose.
 
-# Link
+## Link
 Paper:
 Github:
 
-#Install
+###Install
 
 
