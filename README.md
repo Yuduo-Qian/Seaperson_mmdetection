@@ -10,11 +10,12 @@ just like other released datasets with human faces:
 1) Spreading image with clear person in TinyPerson V2 on the Socaial Internet is prohibited.
 2) Images of identifiable people cannot be used to make demos and promotions without deidentifical.
 3) The image in TinyPersonV2 can not be used for commercial/business purpose.
+```
 
-## Link
-Paper:
-Github:
+# Link
+Paper: https://arxiv.org/abs/2203.09338 <br/>
+Github: https://github.com/ucas-vg/PointTinyBenchmark <br/>
 
-###Install
+# Install
 
 
