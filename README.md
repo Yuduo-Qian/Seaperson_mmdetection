@@ -13,10 +13,21 @@ just like other released datasets with human faces:
 ```
 
 # Link
-Paper: https://arxiv.org/abs/2203.09338 <br/>
-Github: https://github.com/ucas-vg/PointTinyBenchmark <br/>
+- Paper: https://arxiv.org/abs/2203.09338 <br/>
+- Github: https://github.com/ucas-vg/PointTinyBenchmark <br/>
 
 # Requirement
+- Python 3.9
+- CUDA 11.3
+- torch 1.10.0
+- torchvision 0.11.0
+- mmcv-full 1.6.0
+- numpy 1.24.1
+- yapf 0.30.0
+
+# Modification
+- [note]: if your need to modified from origin mmdetection code, see [here](https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md), otherwise do not need any other modified.
+- [note]: Modify file at modification.txt
 
 
 
