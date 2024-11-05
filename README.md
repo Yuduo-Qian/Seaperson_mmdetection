@@ -26,8 +26,8 @@ just like other released datasets with human faces:
 - yapf 0.30.0
 
 # Modification
-- [note]: if your need to modified from origin mmdetection code, see [here](https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md), otherwise do not need any other modified.
-- [note]: Modify file at modification.txt
+- [note]: if your need to modified from origin mmdetection code, see [here](https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md).
+- [note]: Modify file at [modification.txt]([https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md](https://github.com/Yuduo-Qian/Seaperson_mmdetection/blob/main/Seaperson/modification.txt))
 
 
 
