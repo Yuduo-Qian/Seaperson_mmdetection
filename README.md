@@ -25,9 +25,11 @@ just like other released datasets with human faces:
 - numpy 1.24.1
 - yapf 0.30.0
 
-# Modification
+# Help
+- [note]: You can get the modification by searching hui
 - [note]: if your need to modified from origin mmdetection code, see [here](https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md).
 - [note]: Modify file at [modification.txt](https://github.com/Yuduo-Qian/Seaperson_mmdetection/blob/main/Seaperson/modification.txt)
+- [note]: Sample file at [faster_rcnn_r50_fpn_1x_seaperson.py](https://github.com/Yuduo-Qian/Seaperson_mmdetection/blob/main/Seaperson/configs/faster_rcnn/faster_rcnn_r50_fpn_1x_seaperson.py)
 
 
 
