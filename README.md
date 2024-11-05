@@ -27,7 +27,7 @@ just like other released datasets with human faces:
 
 # Modification
 - [note]: if your need to modified from origin mmdetection code, see [here](https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md).
-- [note]: Modify file at [modification.txt]([https://github.com/ucas-vg/PointTinyBenchmark/blob/master/TOV_mmdetection/docs/tov/code_modify.md](https://github.com/Yuduo-Qian/Seaperson_mmdetection/blob/main/Seaperson/modification.txt))
+- [note]: Modify file at [modification.txt]([https://github.com/Yuduo-Qian/Seaperson_mmdetection/blob/main/Seaperson/modification.txt])
 
 
 
